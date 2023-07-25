@@ -16,3 +16,6 @@ const {Triangle,Square,Circle} = require('./lib/shapes.js')
 //2. Create svg file
     //2.1 
     //2.9 use writeFile to create .SVG file
+
+
+// Must have tests for each class (tri,circle,square) will have to film ourselves passing test
