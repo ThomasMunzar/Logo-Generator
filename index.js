@@ -1,13 +1,4 @@
-// 0. import statement of packages
-// const shape = require('./lib/shapes.js');
-// const Triangle = shape.Triangle;
-// const Circle = shape.Circle;
-// const Square = shape.Square
-// // OR 
-// const {Triangle} = require('./lib/shapes.js')
-// const {Circle} = require('./lib/shapes.js')
-// const {Square} = require('./lib/shapes.js')
-// OR
+//Import files and NPM's
 const inquirer  = require('inquirer');
 const MaxLengthInputPrompt = require('inquirer-maxlength-input-prompt');
 const {Shapes,Triangle,Square,Circle} = require('./lib/shapes.js');
@@ -18,12 +9,15 @@ const {Shapes,Triangle,Square,Circle} = require('./lib/shapes.js');
         // text color
         // list of shapes (circle, triangle, square)
         // shape color----Edge case for non color input
+        function validateText(text){
+            return text.length <=3;
+        }
 const questions=[
     {
         type:"input",
         name:"text",
         message:"Please choose text for you logo",
-        maxLength: 3
+        validate: validateText, // Validate the input using the validateText function
     },
     {
         type:"input",
