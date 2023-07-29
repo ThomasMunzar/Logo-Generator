@@ -1,6 +1,6 @@
 # Logo-Generator
 
-[![License](https://img.shields.io/badge/licence-Mozilla-blue.svg)
+
 
 ## Table of Contents
 
@@ -41,12 +41,6 @@ If you have any further questions please contact me.
 - Name: Thomas Munzar
 - Email: tmunzar92@gmail.com
 - Github: [ThomasMunzar](https://github.com/ThomasMunzar/)
-
-## License
-
- This project is covered under the Mozilla license.
-
- [Mozilla](opensource.org/license/Mozilla/)
 
 ## Contributing
 
