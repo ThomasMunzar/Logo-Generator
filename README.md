@@ -54,6 +54,23 @@ n/a
 
 ## Tests
 
-n/a
+Here is an example of a test I ran on my code for my circle shape. 
+
+```S
+
+//CIRCLE TEST
+
+describe('Circle class', () => {
+    it('should render cicle correctly', () => {
+        //arrange
+        const circle = new Circle('SVG', 'pink');
+        //act
+        const svg = circle.render();
+        //assert
+        const expectedSVG = `<circle cx="150" cy="100" r="80" fill="pink"/><text x="150" y="125" font-size="60" text-anchor="middle" fill="pink">SVG</text>`
+    })
+})
+
+```
 
 ---
